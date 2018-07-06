@@ -1,4 +1,5 @@
-// Global app controller
-import number from "./test";
-const name = "Dayan";
-console.log(`imported new number  form test is ${number} and name ${name}`);
+import Search from "./models/Search";
+
+const newSearch = new Search("ice cream");
+newSearch.getRecipes();
+console.log(newSearch);
